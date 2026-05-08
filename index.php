@@ -1,4 +1,4 @@
 <?php
-inclu
+include.once`
 
 ?>
