@@ -1,5 +1,4 @@
 <?php
-// Konfigurasi database
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
@@ -13,5 +12,4 @@ if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
 
-// Set charset
 mysqli_set_charset($conn, "utf8mb4");
